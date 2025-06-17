@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: test
-        run: return 0
+        run: echo Hello
 
   Backend:
     needs: [Helloworld]

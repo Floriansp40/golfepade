@@ -33,8 +33,8 @@ jobs:
           script: |
             echo ${{secrets.MONOREPO_PAT}} | docker login ghcr.io -u Floriansp40 --password-stdin
 
-            docker pull ghcr.io/floriansp40/golfepade-back:latest
-            docker pull ghcr.io/floriansp40/golfepade-front:latest
+            docker pull ghcr.io/floriansp40/golfepade-back:jenpeuplus
+            docker pull ghcr.io/floriansp40/golfepade-front:jenpeuplus
 
             docker compose up -d
       

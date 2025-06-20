@@ -24,7 +24,7 @@ services:
 
   golf_backend:
     container_name: golf_backend_build
-    image: ghcr.io/floriansp40/golfepade-back:latest
+    image: ghcr.io/floriansp40/golfepade-back:jenpeuplus
     environment:
       BDD_HOST: golf_bdd
     ports:
@@ -35,6 +35,6 @@ services:
 
   glof_frontend:
     container_name: glof_frontend
-    image: ghcr.io/floriansp40/golfepade-front:latest
+    image: ghcr.io/floriansp40/golfepade-front:jenpeuplus
     ports:
       - 80:80
